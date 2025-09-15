@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "frontend_react",
   "version": "0.1.0",
   "private": true,
@@ -41,5 +42,27 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "@eslint/eslintrc": "^3"
+>>>>>>> e45113e1c69c4049ea5935c56ac4106751535814
   }
 }
