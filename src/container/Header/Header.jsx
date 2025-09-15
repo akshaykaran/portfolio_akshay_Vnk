@@ -1,5 +1,5 @@
 import React from "react";
-import { easeInOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
 import "./Header.scss";

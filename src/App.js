@@ -1,21 +1,20 @@
-import React from 'react';
-import { About, Header, Skills, Work, Testimonials, Footer }  from './container';
-import { Navbar } from './components';
-import './App.scss';
+import React from "react";
+import { About, Header, Skills, Work, Footer } from "./container";
+import { Navbar } from "./components";
+import "./App.scss";
 
-const App = ()=> {
+const App = () => {
   return (
     <div className="app">
-      <Navbar /> 
+      <Navbar />
       <Header />
-      <About /> 
-      <Work /> 
-      <Skills /> 
-      <Footer /> 
+      <About />
+      <Work />
+      <Skills />
+      <Footer />
       {/* <Testimonials />  */}
     </div>
   );
-}
+};
 
 export default App;
-
